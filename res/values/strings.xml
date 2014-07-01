@@ -2,6 +2,6 @@
 <resources>
 
     <string name="app_name">Switch3G</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_desc">This is an Android app that lets you open directly the network settings. It works on any Android version from 2.3.3.</string>
 
 </resources>
