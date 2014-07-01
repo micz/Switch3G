@@ -31,5 +31,13 @@ public class MainActivity extends Activity {
 			intent.setComponent(cName);
 		}
 		startActivity(intent);
+		finish();
+    }
+    
+	@Override
+    public void onDestroy() {
+        super.onDestroy();
+        System.runFinalization();
+        System.exit(0);
     }
 }
