@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 	public void onStart() {
 		super.onStart();
 		Intent intent = new Intent();
-		//intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		int currentapiVersion = android.os.Build.VERSION.SDK_INT;
 		if(currentapiVersion>=android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH){
 			//Android 4.0+
